@@ -26,4 +26,9 @@ console.log(sum)
 
 console.log("5.")
 
-let 
+let startingValue2 = 10
+let endingValue2 = 100
+let total2 = 10
+
+let sum2 = total2 * (startingValue2 + endingValue2) / 2
+console.log(sum2)
