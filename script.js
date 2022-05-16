@@ -38,3 +38,9 @@ for(let z = 10; z <= 100; z++){
 }
 console.log(total2)
 
+let startingValue2 = 10
+let endingValue2 = 100
+let total2 = 10
+
+let sum2 = total2 * (startingValue2 + endingValue2) / 2
+console.log(sum2)
