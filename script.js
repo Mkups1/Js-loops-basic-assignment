@@ -11,19 +11,30 @@ for (let m = 12; m <= 800; m += 4) {
 
 console.log("3.")
 
-for (let x = 11; x <= 55; x += 2) { 
+for (let x = 55; x >= 11; x -= 2) { 
     console.log(x)
 }
 
 console.log("4.")
 
-let startingValue = 5
-let endingValue = 50
-let total = 46
+// let startingValue = 5
+// let endingValue = 50
+// let total = 46
 
-let sum = total * (startingValue + endingValue) / 2
-console.log(sum)
+// let sum = total * (startingValue + endingValue) / 2
+// console.log(sum)
+let total = 0
 
+for(let y = 5; y <= 50; y++){
+ total += y
+}
+console.log(total)
 console.log("5.")
 
-let 
+let total2 = 0
+
+for(let z = 10; z <= 100; z++){
+ total2 += z
+}
+console.log(total2)
+
